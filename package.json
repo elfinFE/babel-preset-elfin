@@ -1,10 +1,10 @@
 {
-  "name": "elfin-babel-presets",
+  "name": "@elfin-fe/babel-presets-elfin",
   "version": "1.0.0",
   "description": "elfin babel presets",
   "repository": {
     "type": "git",
-    "url": "git@github.com:elfinFE/elfin-babel-presets.git"
+    "url": "git@github.com:elfinFE/babel-presets-elfin.git"
   },
   "main": "lib/index.js",
   "scripts": {
