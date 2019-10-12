@@ -1,6 +1,6 @@
 {
   "name": "@elfin-fe/babel-preset-elfin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "elfin babel preset",
   "repository": {
     "type": "git",
@@ -13,6 +13,10 @@
   },
   "author": "rengar",
   "license": "ISC",
+  "dependencies": {
+    "babel-plugin-glodash": "1.0.5",
+    "babel-plugin-route-names-chain": "1.0.2"
+  },
   "devDependencies": {
     "@babel/cli": "7.5.5",
     "@babel/core": "7.5.5",
@@ -24,7 +28,5 @@
     "glob": "7.1.4",
     "lodash": "4.17.15",
     "mocha": "6.2.0",
-    "babel-plugin-glodash": "1.0.5",
-    "babel-plugin-route-names-chain": "1.0.2"
   }
 }
