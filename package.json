@@ -1,0 +1,30 @@
+{
+  "name": "elfin-babel-presets",
+  "version": "1.0.0",
+  "description": "elfin babel presets",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:elfinFE/elfin-babel-presets.git"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib || true",
+    "test": "mocha --check-leaks --require @babel/register"
+  },
+  "author": "rengar",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "7.5.5",
+    "@babel/core": "7.5.5",
+    "@babel/polyfill": "7.4.4",
+    "@babel/preset-env": "7.5.5",
+    "@babel/register": "7.5.5",
+    "babel-plugin-add-module-exports": "1.0.2",
+    "chai": "4.2.0",
+    "glob": "7.1.4",
+    "lodash": "4.17.15",
+    "mocha": "6.2.0",
+    "babel-plugin-glodash": "1.0.5",
+    "babel-plugin-route-names-chain": "1.0.2"
+  }
+}
