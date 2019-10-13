@@ -1,6 +1,6 @@
-# elfin-babel-presets
+# babel-preset-elfin
 
-elfinFE Team babel-plugin presets
+elfinFE Team babel-preset
 
 incluse:
 - babel-plugin-glodash 地址: [git](https://github.com/XyyF/babel-plugin-elfin)
