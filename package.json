@@ -9,6 +9,7 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib || true",
+    "publish": "npm run build && npm publish --access public",
     "test": "mocha --check-leaks --require @babel/register"
   },
   "author": "rengar",
