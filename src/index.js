@@ -1,8 +1,8 @@
 module.exports = function () {
     return {
         plugins: [
-            require("babel-plugin-glodash"),
-            require("babel-plugin-route-names-chain"),
+            require("@elfin-fe/babel-plugin-glodash"),
+            require("@elfin-fe/babel-plugin-route-names-chain"),
         ],
     }
 }
